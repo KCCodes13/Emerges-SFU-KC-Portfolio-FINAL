@@ -18,7 +18,8 @@ h3{
 }
 
 p {
-    color:red
+    color:black;
+    font-size: 35px;
 }
 .boxed{
     border: 100px black;
@@ -84,7 +85,7 @@ p {
     display: none;
 }
 
-.topnav : hover .sub-menu{
+.topnav a:hover .sub-menu{
     display: block;
     position: absolute;
     background: pink;

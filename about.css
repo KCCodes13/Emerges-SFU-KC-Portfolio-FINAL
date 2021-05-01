@@ -73,17 +73,18 @@ a: hover i{
     opacity: 0.7;
 }
 
-.centerdiv{
+.socialmedia{
     display: inline-flex;
     flex-direction: row;
     flex-wrap: nowrap;
     position:relative;
     align-content: space-between;
     padding: 50px;
-    margin-bottom: -50000px;
+    margin-bottom: -500px;
     bottom: 0;
     margin-left: 10px;
     left: -10%;
+    top: 300px;
 
 }
 .fa-instagram{
