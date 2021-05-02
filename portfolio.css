@@ -2,15 +2,19 @@ h1 {
    font-size: 60px;
    text-align: center;
    color: black;
+   margin-top: 50px;
 }
 
 .flex-container {
-    display: flex;
     width: 100%;
-    justify-content: space-around;
+
+    display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+
+    justify-content: space-around;
     text-align: center;
+
     color: white;
     font-weight: bolder;
     font-size: 32px;
@@ -18,36 +22,37 @@ h1 {
 
 .container-item {
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
     width: 200px;
     height: 50px;
-    background-color:#ce3b54;;
-    justify-content: space-around;
-    flex-direction: row;
-    text-align: center;
-    line-height: 50px;
-    top: 10000px;
     margin-top: 115px;
+
+    line-height: 50px;
+    background-color:#ce3b54;;
+    text-align: center;
 }
 
 .work-samples {
     display: flex;
-    width: 100%;
-    height: 200px;
-    justify-content: space-evenly; 
-    text-align: justify;
-    line-height: 200px;
     flex-direction: row;
     flex-wrap: nowrap;
+    justify-content: space-evenly; 
 
+    height: 200px;
     margin-top: 125px;
     padding: 0 15px;
+
+    text-align: center;
+    line-height: 200px;
 }
 
 .x-box {
     display: inline-flex;
-    flex-wrap: nowrap;
-    justify-content: right;
     flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
   
     width: 200px;
     height: 200px;
