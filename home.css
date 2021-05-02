@@ -3,7 +3,7 @@
 
     font-size: 80px;
     text-align: center;
-    
+
     -webkit-text-stroke:2px black;
     -webkit-text-fill-color: white;
 }
@@ -17,7 +17,7 @@
     background-color: white;
 
     max-width: 1300px;
-    margin: 80px auto;
+    margin: 50px auto;
     padding: 16px 16px;
 
     border-radius: 12px;
