@@ -23,17 +23,21 @@
     -webkit-text-fill-color: white;
 }
 
-.learn-more-button {
-    background-color: #64CB54;
+.learn-more {
+    text-decoration: none;
     position: center;
-    font-weight: bolder;
-    border: black;
-    border-radius: 20%;
-    padding: 15px 32px;
+    width: 300px;
+    margin: 0px auto;
     text-align: center;
     justify-content: center;
-    display: block;
+    display:block;
+}
+
+.learn-more button {
+    background-color: #64CB54;
+    font-weight: bolder;
+    border: black;
+    border-radius: 30px;
+    padding: 15px 32px;
     font-size: 16px;
-    max-width: 300px;
-    margin: auto;
 }

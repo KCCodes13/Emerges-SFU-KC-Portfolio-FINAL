@@ -29,10 +29,8 @@ body {
     -webkit-background-sioze: cover;
     background-size: cover;
     background-position: center center;
-    height: 130vh;
     background-repeat: repeat;
     font-family: lato;
-    min-height: 100vh;
 }
 
 nav {
@@ -161,6 +159,16 @@ nav {
 /**
  * Social media icons css
  */
+ .social-media-icons {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.social-media-icons a {
+    text-decoration: none;
+}
+
  .fa {
     padding: 20px;
     font-size: 30px;
@@ -168,32 +176,25 @@ nav {
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
+    color: white;
 }
-
 
 .fa:hover {
     opacity: 0.7;
 }
 
-.fa-instagram{
+.fa-instagram {
     background: #125688;
-    color: white;
 }
-.fa-linkedin{
+
+.fa-linkedin {
     background: #007bb5;
-    color: white;
 }
-.fa-twitter{
+
+.fa-twitter {
     background: #55ACEE;
-    color: white;
 }
 
-.social-media-icons {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-}
-
-#socialMediaBottons{
-    height: 50vh;
+.fa-at {
+    background: #0a0a0a;
 }
