@@ -1,8 +1,28 @@
+.bigger-h1 {
+    padding-top: 50px;
+
+    font-size: 80px;
+    text-align: center;
+    
+    -webkit-text-stroke:2px black;
+    -webkit-text-fill-color: white;
+}
+
 .boxed {
-    display:flex;
-    flex-direction:row;
-    justify-content:space-evenly;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
     background-color: white;
+
+    max-width: 1300px;
+    margin: 80px auto;
+    padding: 16px 16px;
+
+    border-radius: 12px;
+    border: 5px solid #000;
+
     font-size: 28px;
 }
 
@@ -12,15 +32,14 @@
     border-radius: 24px;
 }
 
-.bigger-h1 {
-    font-size: 80px;
-    text-align: center;
-    padding-top: 50px;
+.greeting-text {
+    flex: flex-grow;
+    padding-left: 10px;
 }
 
-.stroke-text {
-    -webkit-text-stroke:5px black;
-    -webkit-text-fill-color: white;
+.greeting-text ul {
+    list-style: square;
+    padding-left: 40px;
 }
 
 .learn-more {
@@ -30,7 +49,7 @@
     margin: 0px auto;
     text-align: center;
     justify-content: center;
-    display:block;
+    display: block;
 }
 
 .learn-more button {
@@ -40,4 +59,15 @@
     border-radius: 30px;
     padding: 15px 32px;
     font-size: 24px;
+}
+
+@media (max-width: 800px) {
+    .boxed {
+        flex-direction: column;
+    }
+
+    .tree-img {
+        width: 100%;
+        height: auto;
+    }
 }
